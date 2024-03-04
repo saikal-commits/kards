@@ -6,6 +6,11 @@
 
 a {
   text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
 }
 
 .container {
@@ -108,9 +113,10 @@ body {
 }
 
 .cardName h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 200;
   color: white;
+  margin-top: -0.4pc;
   letter-spacing: 2px;
 }
 .cardNum h3 {
@@ -121,10 +127,9 @@ body {
 }
 .num {
   position: absolute;
-  top: 80px;
   left: 55px;
-  margin-top: 10px;
-  font-size: 20px;
+  margin-top: -150px;
+  font-size: 19px;
   font-weight: 200;
   color: white;
   letter-spacing: 2px;
@@ -147,6 +152,15 @@ body {
 
 .cards {
   overflow-y: scroll;
-  height: 700px;
-  width: 430px;
+  height: 600px;
+  padding: 20px;
+}
+
+.del-card {
+  position: absolute;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  font-size: 24px;
 }
