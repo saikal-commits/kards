@@ -136,3 +136,4 @@ function addDelete(id) {
   localStorage.setItem("card", JSON.stringify(data));
   readProduct();
 }
+
